@@ -1,5 +1,5 @@
 /*
-  TEMPLATE NAME: WEB DESIGN SUPPORT COMPONENTS
+  Theme Name: Name - Multipurpose HTML Template
   Author: sagorpstu17@gmail.com
   Support: admin@gmail.com
   Description: Creative  HTML5 template.
@@ -10,14 +10,6 @@
 -----------------------------------
 1. Theme default css
 2. header
-3. slider
-4. about-area
-5. features-box
-6. department
-7. team
-8. video-area
-9. counter
-10. footer
 */
 
 /* ?Theme default css */
@@ -27,15 +19,9 @@
 .img {
     max-width: 100%;
     transition: all 0.3s ease-out 0s;
+    height: auto;
 }
 
-.f-left {
-    float: left;
-}
-
-.f-right {
-    float: right;
-}
 
 .fix {
     overflow: hidden;
@@ -73,7 +59,8 @@ button:focus,
 input:focus,
 textarea,
 textarea:focus {
-    outline: 0
+    outline: 0;
+    box-shadow: none !important;
 }
 
 .uppercase {
@@ -84,52 +71,12 @@ textarea:focus {
     text-transform: capitalize;
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    color: inherit;
-}
 
-h1 {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-h3 {
-    font-size: 28px;
-}
-
-h4 {
-    font-size: 22px;
-}
-
-h5 {
-    font-size: 18px;
-}
-
-h6 {
-    font-size: 16px;
-}
-
-ul {
-    margin: 0px;
-    padding: 0px;
-}
 
 li {
     list-style: none
 }
 
-.bg-black {
-    background-color: #091b29;
-}
 
 .overlay {
     position: absolute;
@@ -158,11 +105,10 @@ h4,
 h5,
 h6 {
 
-    font-weight: 700;
     margin-top: 0px;
     font-style: normal;
-    font-weight: 600;
     text-transform: normal;
+    font-weight: 700;
     color: #000A2D;
 
 }
@@ -174,22 +120,13 @@ p {
     margin-bottom: 0px;
     line-height: 1.7;
     color: #6e7797;
-    font-weight: bold;
 }
 
-/* Start Here */
-
-/* Navigation */
-
-.navbar .nav-link{
-    color: #fff !important;
-    font-weight: 600;
-    font-size: 18px;
-}
+/* ?Start Here */
 
 /* SideBar CSS */
 .sidebar {
-    background: #E91E63;
+    
     width: 0px;
     height: 100vh;
     position: absolute;
@@ -203,7 +140,13 @@ p {
     -o-transition: ease;
 }
 
-.fa-window-close {
+#sideNavTgl {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+#sideBarNavClose {
     display: none;
 }
 
@@ -231,8 +174,10 @@ p {
     padding-left: 30px;
 }
 
-@media (max-width:991px){
-    #sideBarToggle{
-        top: 24px !important;
+/* !Media Queries */
+
+@media (max-width:991px) {
+    #sideNavTgl {
+        top: 20px !important;
     }
 }
