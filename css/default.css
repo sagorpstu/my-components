@@ -1580,7 +1580,7 @@
 }
 
 .vh-80 {
-	height: 76vh;
+	height: 80vh;
 }
 
 
@@ -1717,3 +1717,11 @@
 	-o-transform: translateY(-50%);
 }
 /*?Transform Properties*/
+
+/*?BG COLOR*/
+
+.pure-dark{
+	background-color: #091b29;
+}
+
+/*?BG COLOR*/
