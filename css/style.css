@@ -1,0 +1,238 @@
+/*
+  TEMPLATE NAME: WEB DESIGN SUPPORT COMPONENTS
+  Author: sagorpstu17@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+/* ?Theme default css */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Rufina:wght@400;700&display=swap'); */
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+
+    text-decoration: none;
+}
+
+a,
+button {
+
+    outline: none;
+    text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+.bg-black {
+    background-color: #091b29;
+}
+
+.overlay {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0b0726;
+    opacity: 0.9;
+}
+
+/* ?Modified Part */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: 700;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: normal;
+    color: #000A2D;
+
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+    color: #6e7797;
+    font-weight: bold;
+}
+
+/* Start Here */
+
+/* Navigation */
+
+.navbar .nav-link{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* SideBar CSS */
+.sidebar {
+    background: #E91E63;
+    width: 0px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: ease;
+    -webkit-transition: ease;
+    -moz-transition: ease;
+    -ms-transition: ease;
+    -o-transition: ease;
+}
+
+.fa-window-close {
+    display: none;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.sideNav {
+    padding-top: 78px;
+}
+
+.sideNav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 20px;
+
+}
+
+.sideNav .nav-link.active,
+.sideNav .nav-link:hover {
+    background-color: #09090985;
+}
+
+.sideNav .nav-link:hover {
+    padding-left: 30px;
+}
+
+@media (max-width:991px){
+    #sideBarToggle{
+        top: 24px !important;
+    }
+}
